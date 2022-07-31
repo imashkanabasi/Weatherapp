@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS STYLE FILE -->
+    <link rel="stylesheet" href="/index.css" />
+     <!-- FONT STYLE FILE -->
+    <link rel="stylesheet" href="/font.css">
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="جستجو کردن..." class="search-bar" />
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            role="img"
+            width="1.5em"
+            height="1.5em"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 50 50"
+          >
+            <path
+              fill="currentColor"
+              d="M23 36c-7.2 0-13-5.8-13-13s5.8-13 13-13s13 5.8 13 13s-5.8 13-13 13zm0-24c-6.1 0-11 4.9-11 11s4.9 11 11 11s11-4.9 11-11s-4.9-11-11-11z"
+            />
+            <path
+              fill="currentColor"
+              d="m32.682 31.267l8.98 8.98l-1.414 1.414l-8.98-8.98z"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="weather loading">
+        <h2 class="city">آب و هوا در اهواز</h2>
+        <div class="temp">45°C</div>
+       <div class="flex">
+        <img src="https://openweathermap.org/img/wn/03n.png" alt="" class="icon" />
+        <div class="description">ابری</div>
+       </div>
+        <div class="humidity">رطوبت : 60 درصد</div>
+        <div class="wind">سرعت باد : 6.3 کیلومتر </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT JS FILE -->
+    <script src="/index.js"></script>
+  </body>
+</html>
